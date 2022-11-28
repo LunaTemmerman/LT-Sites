@@ -143,12 +143,15 @@ nav a {
 }
 
 .intro {
-  display: flex;
   justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container {
   height: fit-content;
+  order: 2;
+  text-align: center;
 }
 
 .intro h1 {
@@ -160,16 +163,13 @@ nav a {
   margin-bottom: 4rem;
 }
 
-.half {
-  max-width: 55%;
-}
-
 .illustration {
-  background: transparent url(/images/homeill.svg);
+  background: transparent url(/images/homeill.svg) center;
   background-size: 100%;
   width: 8.5rem;
   height: 8.5rem;
-  margin: auto 0 2rem auto;
+  margin: 0 auto;
+  order: 1;
 }
 
 .button,

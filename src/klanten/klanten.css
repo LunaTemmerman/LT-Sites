@@ -1,3 +1,6 @@
+.intro .container {
+  text-align: initial;
+}
 .hoe {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,68 @@
+.hoe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hoe h1 {
+  width: 100%;
+}
+
+.hoe ul {
+  width: 80%;
+  margin: 0;
+}
+
+.hoe li {
+  height: 10rem;
+}
+
+.hoe h2 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+.steps {
+  width: 1.5rem;
+  height: 100%;
+}
+
+.bullet1 {
+  background: transparent url(/images/bullet1.svg);
+}
+
+.bullet2 {
+  background: transparent url(/images/bullet2.svg);
+}
+
+.bullet3 {
+  background: transparent url(/images/bullet3.svg);
+}
+
+.steps figure {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.steps div {
+  width: 2px;
+  height: 7rem;
+  background: var(--accent);
+  margin: 1rem auto;
+}
+
+.hand {
+  background: transparent url(/images/hand.svg);
+}
+
+.deal {
+  background: transparent url(/images/deal.svg);
+}
+
+.client {
+  background: transparent url(/images/client.svg);
+}
+
+.cards {
+  margin-bottom: 3rem;
+}

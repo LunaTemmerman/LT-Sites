@@ -69,3 +69,46 @@
 .cards {
   margin-bottom: 3rem;
 }
+
+@media (min-width: 56.25rem) {
+  .hoe {
+    flex-direction: column;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .steps div {
+    width: 19.75vw;
+    height: 2px;
+    background: var(--accent);
+    margin: auto;
+  }
+
+  .steps {
+    width: fit-content;
+    margin: 3rem auto 0 auto;
+    height: 1.5rem;
+    display: flex;
+    gap: 3.5rem;
+  }
+
+  .hoe ul {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+
+  .hoe li {
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding: 2rem;
+    height: initial;
+    min-height: 7.1875rem;
+    max-width: 17rem;
+  }
+  .waarom {
+    text-align: center;
+  }
+}

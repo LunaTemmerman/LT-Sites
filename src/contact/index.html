@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="./contact.css" rel="stylesheet" />
+    <script src="../header.js" type="module" defer></script>
+    <script src="./contact.js" type="module" defer></script>
+    <title>Luna Temmerman Sites - Contact</title>
+  </head>
+  <body>
+    <header>
+      <a href="../../" class="logo">
+        LT SITES
+        <figure></figure>
+      </a>
+      <figure class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="../klanten/">🖱️ Voor klanten</a></li>
+          <li><a href="../werk/">🎨 Mijn werk</a></li>
+          <li><a href="./">📧 Contacteer mij</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container half">
+              <h1>Contacteer mij</h1>
+              <p>Vul de velden hieronder in en ik antwoord zo snel mogelijk.</p>
+            </div>
+            <figure class="illustration lighthouse"></figure>
+            </div>
+          </section>
+          <section>
+            <form>
+                <label for="onderwerp">Onderwerp</label>
+                <select name="onderwerp" id="onderwerp">
+                    <option value="">Kies een onderwerp</option>
+                    <option value="bestelling">Een bestelling</option>
+                    <option value="vraag">Een vraag</option>
+                    <option value="anders">Iets anders</option>
+                </select>
+                <label for="name">Naam</label>
+                <input type="text" name="naam" id="naam" placeholder="Vul hier uw naam in">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Vul hier uw email adres in">
+                <label for="details">Details</label>
+                <textarea type="text" name="details" id="details" placeholder="Vul hier uw boodschap in"></textarea>    
+                <button>Verzenden</button>
+            </form>
+          </section>
+    </main>
+    <footer>
+      <p>🫂 Luna Temmerman</p>
+      <p>📱 +32 468 27 18 57</p>
+      <p>📩 lunatemmerman276@gmail.com</p>
+    </footer>
+  </body>
+</html>

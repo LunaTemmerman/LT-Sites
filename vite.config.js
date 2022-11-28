@@ -6,7 +6,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve('./', 'index.html'),
-        nested: resolve('./src', 'klanten/index.html'),
+        nested: resolve('./src', 'klanten/'),
+        nested: resolve('./src', 'contact/'),
       },
     },
   },

@@ -21,7 +21,9 @@ a,
 h1,
 h2,
 button,
-input {
+input[type='text'],
+label,
+textarea {
   font-family: 'Open Sans', sans-serif;
   color: var(--fg);
   text-decoration: none;
@@ -34,7 +36,8 @@ div {
   font-weight: 300;
 }
 
-a {
+a,
+label {
   font-size: 1rem;
   font-weight: 500;
 }
@@ -180,6 +183,7 @@ button {
   box-shadow: var(--shadow);
   border-radius: var(--rad);
   color: var(--white);
+  background: var(--black);
   display: inline-block;
 }
 
@@ -295,6 +299,56 @@ footer {
 
 footer p {
   margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid var(--black);
+  border-left: 1px solid var(--white);
+  padding: 1rem 0.5rem;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 1.5rem;
+  outline: none;
+  background: var(--overlay);
+  color: var(--fg);
+}
+
+option {
+  background-color: var(--black);
+  color: var(--fg);
+  border: none;
+}
+
+input:focus {
+  border: 1px solid rgba(250, 250, 250, 0.132);
+  border-left: 1px solid var(--white);
+  background: var(--overlay);
+}
+
+textarea {
+  height: 7rem;
+  max-width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background: var(--overlay);
 }
 
 @media (min-width: 50rem) {
